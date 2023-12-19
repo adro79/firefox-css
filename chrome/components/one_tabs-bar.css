@@ -494,6 +494,7 @@ spacer{
 #toolbar-menubar {
     padding-inline-start: calc(var(--padding-left-tab) + 9px) !important;
     height: -moz-available !important;
+    display: none;
     }
 
 #toolbar-menubar>toolbaritem>menubar>menu {
