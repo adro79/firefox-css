@@ -37,8 +37,6 @@
 :root,
 body {
     overflow: hidden;
-    background-color: var(--toolbar-bgcolor);
-    /*background-color:var(--tab-active-background);*/
 }
 
 /* Move topmenu to bottom */
@@ -265,7 +263,7 @@ background-color: var(identity-color, var(--tab-loading-fill));
 }
 /* Change the line of selected tab to container color too */
 #pinnedtablist:not(.compact) .tab.active, #tablist .tab.active {
-    background-color: color-mix(in srgb,  var(--identity-color, var(--tab-loading-fill, var(--general-color))) 22%, transparent);
+    background-color: #ffffff22;
     box-shadow: inset 3px 0 0 0px color-mix(in srgb, var(--identity-color,var(--tab-loading-fill)) 100%, transparent);
     border-radius: 4px;
 }
